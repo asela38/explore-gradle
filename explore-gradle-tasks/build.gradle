@@ -1,0 +1,34 @@
+
+project.task("Task 1")
+
+task("Task Two")
+
+task "Task Three"
+
+task task3
+
+
+task task4 {
+	
+	description "This is task 4"
+	doLast {
+		println "Executing task 4"
+	}
+
+}
+
+
+task Task5 
+
+
+task Task6
+
+
+Task6.description = "This is Task 6"
+Task6.doFirst { println "Task 6: Doing First" }
+Task6.doFirst { println "Task 6: Doing First, Appened" }
+Task6.doLast { println "Task 6:Doing Last" }
+Task6.doLast { println "Task 6:Doing Last, Appended" }
+
+
+
